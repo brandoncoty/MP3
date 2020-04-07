@@ -1,0 +1,1 @@
+Q1. This is an example of the duplicated code code smell. You can condense the repeated code into a method that can be called when that funcionality is desired.
