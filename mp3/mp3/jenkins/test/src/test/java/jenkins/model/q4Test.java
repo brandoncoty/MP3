@@ -36,7 +36,7 @@ public class q4Test {
 
     @Test public void idFromFileNameStringOtherChars() {
     	CaseSensitive a = new CaseSensitive();
-    	assertEquals("_filename#", a.idFromFilename("_filename#"));
+    	assertEquals("_filename", a.idFromFilename("_filename"));
     }
 
 }
