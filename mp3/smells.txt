@@ -6,3 +6,6 @@ Q3. updateAndTrim() does not belong in the Nodes class. Instead, it should be in
 
 Q4. The repeated code can be condensed into one statement by using a for loop to account for the number
     of times it has to be repeated.
+
+Q6. We are refactoring the repeated code on lines 87-98 in .../jenkins/test/src/test/java/hudson/model/RunParameterDefinitionTest.Java
+    by using "Extract Local Variable" for each input of the test, then "Extract Method" to simplify the test.
